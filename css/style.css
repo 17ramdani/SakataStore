@@ -1,0 +1,136 @@
+/* Import Monsterat */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background: #d3d3d3 !important;
+}
+
+body .slider-section ul li {
+  list-style: none;
+}
+
+/* Bagian Header */ 
+/* #03989e */
+header .navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+  }
+}
+
+.header .top-bar .top-links li {
+  display: inline-block;
+  color: #333;
+  font-size: 13px;
+  font-weight: 200;
+  border-right: 1px solid #f0f0f0;
+  padding: 0px 13px;
+}
+
+.header .navbar-main {
+  padding: 0.25rem;
+  text-transform: uppercase;
+}
+
+.header ul li a {
+  background: none;
+  border: none;
+}
+
+.header .btn .heart i {
+  color:red;
+}
+
+.header button {
+  background: none !important;
+  border-radius: 10px !important;
+  border: none !important;
+  font-size: 16px !important;
+}
+/* Akhir Bagian Header */
+
+/* Bagian Slider */
+.slider-section {
+  background-color: #f6f7fb;
+}
+
+.slider-inner {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 3px rgb(51 51 51 / 15%);
+}
+
+.nav-category h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.nav-category .menu-category {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+.nav-category .menu-category li {
+  border-bottom: 1px solid #e5e7ea;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.nav-category .menu-category li a {
+  color: #333;
+}
+
+.nav-category .menu-category li a:hover {
+  color: #3d55df; 
+  transition: 0.5s;
+}
+.header-main {
+  margin-top: -2px;
+}
+
+
+/* Akhir Bagian Slider */
+
+.home #carousel {
+  margin-top: 2rem;
+}
+.home img{
+  padding-top: 3rem;
+} 
+#t-shirt{
+  padding-top: 2rem;
+}
+#Crewneck{
+  padding-top: 2rem;
+}
+#Jacket{
+  padding-top: 2rem;
+}
+.keterangan{
+  background-color: #333;
+}
+
+/* class Footer */
+footer ul li {
+  list-style: none;
+}

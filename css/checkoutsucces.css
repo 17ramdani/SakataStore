@@ -1,0 +1,16 @@
+body {
+  background: #03989e !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+.container img {
+  max-width: 350px;
+  margin-top: 50px;
+}
+
+.container h3 {
+  text-transform: uppercase;
+}
+
+.container a {
+  color: yellow;
+}

@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+    <title>Sakata Shop</title>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <header class="header clearfix fixed-top">
+      <nav
+        class="navbar navbar-main navbar-expand-lg navbar-light border-top border-bottom shadow p-2 mb-5 bg-dark">
+        <div class="container">
+          <img src="./img/lg.png" width="40" height="40" class="mr-3">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+            aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <a class="navbar-brand ms-auto" href="#"> SAKATA STORE</a>
+            <ul class="navbar-nav ml-auto">
+              <form class="boxSearch form-inline text-center mr-sm-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success bg-primary my-2 my-sm-0" type="submit"><i
+                    class="fas fa-search"></i></button>
+              </form>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" aria-expanded="true">products</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#t-shirt" onclick="return smoothScroll('t-shrit')">T-Shirt</a>
+                  <a class="dropdown-item" href="#Crewneck" onclick="return smoothScroll('crewneck')">Crewneck</a>
+                  <a class="dropdown-item" href="#Jacket" onclick="return smoothScroll('jacket')">Jacket</a> </div>
+              </li>
+              <li class="nav-item active icon">
+                <a href="login.html" class="btn btn-light cart"><i class="fas fa-user text-success"></i></i></a>
+                <a href="#" class="btn btn-light heart"><i class="fas fa-heart text-danger"></i></i></a>
+                <a href="checkout.html" class="btn btn-light cart"><i class="fas fa-shopping-cart text-info"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Akhit Navbar -->
+
+    <!-- Bagian Home -->
+    <section class="home">
+      <div id="carouselExampleControls" class="carousel slide height-660px" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/back1.png" class="d-block w-100 mt-10" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/back2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/back3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- Akhir Bagian Home -->
+
+    <!-- Bagian T-shirt -->
+    <section id="t-shirt" class="listSearch">
+      <div class="container mt-5">
+        <h2 class="text-center font-weight-bold">CATEGORIES</h2>
+        <h3 class="">T-SHIRT</h3>
+        <div class="row">
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="img/baju1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ORI SKT 01</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#produk1"
+                    data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="img/baju2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">SO RACING</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#produk2"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="img/baju3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ORI SKT 02</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"data-target="#produk3"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/baju4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ORI LMG</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#produk4"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/baju5.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">LP3I BANDUNG</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#produk5"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/baju6.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ORI SKT 03</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#produk6"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/baju7.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">NGOBAR</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#produk7"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/baju8.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">SUKA NGODING</h5>
+                <p class="card-text">Rp.70.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#produk8"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju1.jpg" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> ORI SKT 01</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju2.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> SO RACING</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju3.jpg" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> ORI SKT 02</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju4.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> ORI LMG</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju5.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> LP3I BANDUNG</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju6.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> ORI SKT 03</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju7.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> NGOBAR</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="produk8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/baju8.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> SUKA NGODING</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 70.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 10 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Bagian T-shirt -->
+
+    <section id="Crewneck" class="ListSearch"> 
+      <div class="container mt-5">
+        <h3 class="">CREWNECK</h3>
+        <div class="row">
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/cr1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">SUKA NGODING 01</h5>
+                <p class="card-text">Rp.160.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#cr1"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/cr2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">NGOBAR</h5>
+                <p class="card-text">Rp.165.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#cr2"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/cr3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">SUKA NGODING 02</h5>
+                <p class="card-text">Rp.150.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#cr3"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-6 mt-4">
+            <div class="card">
+              <img src="./img/cr4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">SUKA NGODING 03</h5>
+                <p class="card-text">Rp.150.000</p>
+                <a href="#" class="btn btn-primary"><i class="fas fa-eye"  data-target="#cr4"
+                  data-toggle="modal"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="cr1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/cr1.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> SUKA NGODING 01</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 160.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 5 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="cr2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/cr2.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> CREWNECK NGOBAR</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 165.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 5 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="cr3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/cr3.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> SUKA NGODING 02</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 160.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 5 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="cr4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/cr4.png" width="220px" height="220px" alt="">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th> Nama Produk :</th>
+                      <td> SUKA NGODING 03</td>
+                    </tr>
+                    <tr>
+                      <th> Merek :</th>
+                      <td> Sakata</td>
+                    </tr>
+                    <tr>
+                      <th> Ukuran :</th>
+                      <td> S,M,L,XL,XXL</td>
+                    </tr>
+                    <tr>
+                      <th> Harga :</th>
+                      <td> Rp 160.000</td>
+                    </tr>
+                    <tr>
+                      <th> Stok :</th>
+                      <td> 5 </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-danger">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Baian Akhir Crewneck -->
+
+      <!-- Bagian Awal Jacket  -->
+  <section id="Jacket" class="ListSearch">
+    <div class="container mt-5">
+      <h3 class="">JACKET</h3>
+      <div class="row">
+        <div class="col-md-3 mb-6 mt-4">
+          <div class="card">
+            <img src="img/jk1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">CIGA NANAGAAN</h5>
+              <p class="card-text">Rp 170.000</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#jk1"
+                  data-toggle="modal"></i></a>
+              <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-6 mt-4">
+          <div class="card">
+            <img src="img/jk2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">PICA SLASH</h5>
+              <p class="card-text">Rp.170.000</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#jk2"
+                  data-toggle="modal"></i></a>
+              <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-6 mt-4">
+          <div class="card">
+            <img src="img/jk3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">PANDA THE JOKER</h5>
+              <p class="card-text">Rp.170.000</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#jk3"
+                  data-toggle="modal"></i></a>
+              <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-6 mt-4">
+          <div class="card">
+            <img src="img/jk4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">ROSE DENIM</h5>
+              <p class="card-text">Rp.170.000</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye" data-target="#jk4"
+                  data-toggle="modal"></i></a>
+              <a href="#" class="btn btn-danger"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="jk1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./img/jk1.png" width="220px" height="220px" alt="">
+              </div>
+              <div class="col-md-6">
+                <table class="table table-borderless">
+                  <tr>
+                    <th> Nama Produk :</th>
+                    <td> CIGA NANAGAAN</td>
+                  </tr>
+                  <tr>
+                    <th> Merek :</th>
+                    <td> Sakata</td>
+                  </tr>
+                  <tr>
+                    <th> Ukuran :</th>
+                    <td> M,L,XL,XXL</td>
+                  </tr>
+                  <tr>
+                    <th> Harga :</th>
+                    <td> Rp 170.000</td>
+                  </tr>
+                  <tr>
+                    <th> Stok :</th>
+                    <td> 3 </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger">Pesan</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="modal fade" id="jk2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./img/jk2.png" width="220px" height="220px" alt="">
+              </div>
+              <div class="col-md-6">
+                <table class="table table-borderless">
+                  <tr>
+                    <th> Nama Produk :</th>
+                    <td> PICA SLASH</td>
+                  </tr>
+                  <tr>
+                    <th> Merek :</th>
+                    <td> Sakata</td>
+                  </tr>
+                  <tr>
+                    <th> Ukuran :</th>
+                    <td> M,L,XL,XXL</td>
+                  </tr>
+                  <tr>
+                    <th> Harga :</th>
+                    <td> Rp 170.000</td>
+                  </tr>
+                  <tr>
+                    <th> Stok :</th>
+                    <td> 3 </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger">Pesan</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="modal fade" id="jk3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./img/jk3.png" width="220px" height="220px" alt="">
+              </div>
+              <div class="col-md-6">
+                <table class="table table-borderless">
+                  <tr>
+                    <th> Nama Produk :</th>
+                    <td> PANDA THE JOKER</td>
+                  </tr>
+                  <tr>
+                    <th> Merek :</th>
+                    <td> Sakata</td>
+                  </tr>
+                  <tr>
+                    <th> Ukuran :</th>
+                    <td> M,L,XL,XXL</td>
+                  </tr>
+                  <tr>
+                    <th> Harga :</th>
+                    <td> Rp 170.000</td>
+                  </tr>
+                  <tr>
+                    <th> Stok :</th>
+                    <td> 3 </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger">Pesan</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="modal fade" id="jk4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./img/jk4.png" width="220px" height="220px" alt="">
+              </div>
+              <div class="col-md-6">
+                <table class="table table-borderless">
+                  <tr>
+                    <th> Nama Produk :</th>
+                    <td> ROSE DENIM</td>
+                  </tr>
+                  <tr>
+                    <th> Merek :</th>
+                    <td> Sakata</td>
+                  </tr>
+                  <tr>
+                    <th> Ukuran :</th>
+                    <td> M,L,XL,XXL</td>
+                  </tr>
+                  <tr>
+                    <th> Harga :</th>
+                    <td> Rp 170.000</td>
+                  </tr>
+                  <tr>
+                    <th> Stok :</th>
+                    <td> 3 </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger">Pesan</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <!-- Bagian Akhir Jacket -->
+
+   <!-- Footer -->
+<!-- Bagian Akhir Footer -->
+<div class="keterangan">
+  <div class=" text-white p-5 mt-5 footer">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>LAYANAN PELANGGAN</h5>
+        <ul>
+          <li><i class="fas fa-phone-alt mr-2"></i>Pusat Bantuan</li>
+          <li><i class="fas fa-shopping-bag mr-2"></i>Cara Pembelian</li>
+          <li><i class="fas fa-shipping-fast mr-2"></i></i>Pengiriman</li>
+          <li><i class="fas fa-print mr-2"></i>Cetak Pembelian</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>TENTANG KAMI</h5>
+        <P>Sakata Store berdiri sejak tahun 2021, memiliki beberapa produk fashion yang dapat memenuhi kebutuhan anda
+          yang berjiwa muda dan berpetualang seperti produk kaos, crewneck dan jacket. Temukan inspirasi fashion anda
+          pada brand kami</P>
+      </div>
+      <div class="col-md-3">
+        <h5>MITRA KERJASAMA</h5>
+          <img src="./img/jne.jpg" width="70" height="40" class="mb-2 mr-2" alt="">
+          <img src="./img/jnt.jpg"  width="40" height="40" class="mb-2  mr-2" alt="">
+          <img src="./img/sicepat.png" width="80" height="40" class="mb-2  mr-2"  alt="">
+          <img src="./img/shopee.png" width="40" height="40" class="mb-2  mr-2" alt="">
+          <img src="./img/ninja.png" width="80" height="40" class="mb-2  mr-2"  alt="">
+          <img src="./img/tokopedia.png" width="40" height="40" class="mb-2  mr-2" alt="">
+          <img src="./img/lazada.png" width="40" height="40" class="mb-2  mr-2" alt="">
+          <img src="./img/bukalapak.png" width="40" height="40" class="mb-2  mr-2" alt="">
+          <img src="./img/blibli.png" width="40" height="40" class="mb-2  mr-2" alt="">
+        
+      </div>
+      <div class="col-md-3">
+        <h5>HUBUNGI KAMI</h5>
+        <ul>
+          <li><i class="fas fa-phone-alt mr-2"></i>0822-1446-7224</li>
+          <li><i class="fas fa-envelope mr-2"></i>costumer@sakatastore.com</li>
+          <li><i class="fas fa-envelope mr-2"></i>robbygunawan@gmail.com</li>
+          <li><i class="fas fa-envelope mr-2"></i>17ramdani01@gmail.com</li>
+          <li><i class="fas fa-envelope mr-2"></i>aafakhri09@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+<div class="text-dark bg-dark p-3 text-center">
+  <img src="./img/lg.png" width="40" height="40">
+  <a class="text-white" href=""> © 2021 Copyright: <b> SAKATA STORE</b></a>
+</div>
+</footer>
+  <!-- Link Jquery -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Link my js -->
+  <script src="js/main.js"></script>
+
+    <!-- Link Javascript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>

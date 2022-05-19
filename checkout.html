@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--  -->
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/checkout.css" />
+
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <title>checkout</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <img src="img/logo.png" alt="" />
+    </div>
+    <div class="container">
+      <h4 class="mb-2">Informasi Penerima</h4>
+      <form action="checkoutsucces.html">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="text-bold text-white">Nama Lengkap</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Masukan Nama Lengkap Anda" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Nama Panggilan</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Masukan Nama Panggilan Anda" required />
+            <div class="invalid-feedback">Valid lastname is required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Email</label>
+            <input type="email" id="firstName" class="form-control rounded-pill" placeholder="Masukan Email Anda" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Nomor Telepon</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Masukan No Telepon Anda" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Provinsi</label>
+            <select class="form-control m-bootstrap-select m_selectpicker rounded-pill" tabindex="-98" name="regional_code" required="">
+              <option value="11">ACEH</option>
+              <option value="12">SUMATERA UTARA</option>
+              <option value="13">SUMATERA BARAT</option>
+              <option value="14">R I A U</option>
+              <option value="15">J A M B I</option>
+              <option value="16">SUMATERA SELATAN</option>
+              <option value="17">BENGKULU</option>
+              <option value="18">LAMPUNG</option>
+              <option value="19">KEPULAUAN BANGKA BELITUNG</option>
+              <option value="21">KEPULAUAN RIAU</option>
+              <option value="31">DKI JAKARTA</option>
+              <option value="32">JAWA BARAT</option>
+              <option value="33">JAWA TENGAH</option>
+              <option value="34">DI YOGYAKARTA</option>
+              <option value="35">JAWA TIMUR</option>
+              <option value="36">B A N T E N</option>
+              <option value="51">BALI</option>
+              <option value="52">NUSA TENGGARA BARAT</option>
+              <option value="53">NUSA TENGGARA TIMUR</option>
+              <option value="61">KALIMANTAN BARAT</option>
+              <option value="62">KALIMANTAN TENGAH</option>
+              <option value="63">KALIMANTAN SELATAN</option>
+              <option value="64">KALIMANTAN TIMUR</option>
+              <option value="71">SULAWESI UTARA</option>
+              <option value="73">SULAWESI SELATAN</option>
+              <option value="74">SULAWESI TENGGARA</option>
+              <option value="75">GORONTALO</option>
+              <option value="76">SULAWESI BARAT</option>
+              <option value="81">MALUKU</option>
+              <option value="82">MALUKU UTARA</option>
+              <option value="94">PAPUA</option>
+              <option value="91">PAPUA BARAT</option>
+              <option value="72">SULAWESI TENGAH</option>
+              <option value="65">KALIMANTAN UTARA</option>
+            </select>
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Kab/Kota</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Kota" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Kecamatan</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Kota" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Desa</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Kota" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-6">
+            <label for="exampleFormControlTextarea1" class="form-label">Alamat Kampung/ No jalan </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName">Deskripsi Barang</label>
+            <input type="text" id="firstName" class="form-control rounded-pill" placeholder="Kota" required />
+            <div class="invalid-feedback">Valid firstName required</div>
+          </div>
+          <div class="col-sm-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Pilih metode pembayaran </label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> BANK </label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> DANA </label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> Linkaja </label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> Gopay </label>
+          </div>
+          <div class="col-sm-3">
+            <p>Pilih metode pembayaran lain</p>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> COD </label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> Ambil Ke Toko </label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+            <label class="form-check-label" for="flexRadioDefault1"> Bayar Nanti </label>
+          </div>
+          <div class="form-group my-4 text-center">
+            <button type="submit" id="login" class="btn btn-primary rounded-pill btn-block">Pesan Sekarang</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
